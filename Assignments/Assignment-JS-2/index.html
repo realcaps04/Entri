@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="app-title">Calculator</h1>
+        <div class="calculator-card">
+            <div class="input-group">
+                <input type="number" id="num1" placeholder="Enter First Number">
+                <input type="number" id="num2" placeholder="Enter Second Number">
+            </div>
+
+            <div class="buttons-grid">
+                <button id="add-btn" class="op-btn">+</button>
+                <button id="sub-btn" class="op-btn">-</button>
+                <button id="mul-btn" class="op-btn">&times;</button>
+                <button id="div-btn" class="op-btn">&divide;</button>
+            </div>
+
+            <div class="advanced-ops">
+                <button id="square-btn" class="adv-btn">x&sup2;</button>
+                <button id="cube-btn" class="adv-btn">x&sup3;</button>
+            </div>
+
+            <div class="result-display">
+                <span id="result-text">Result will appear here</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
